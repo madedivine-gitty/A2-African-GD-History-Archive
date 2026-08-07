@@ -22,7 +22,7 @@
             &#9776
         </button>
 
-        <!--Country Filter-->
+       <!--Country Filter-->
         <div class="filters"> 
             <button type="button" class="collapsible">
                 Country<span class="infoRight">▼</span>
@@ -37,12 +37,36 @@
                    Angola 
                 </button>
 
+                <button class="filterOption button" data-filter="cameroon" onclick="filterGenre(event)">
+                   Cameroon
+                </button>
+
                 <button class="filterOption button" data-filter="cote-d'ivoire" onclick="filterGenre(event)">
                    Côte d'Ivoire 
+                </button>
+
+                <button class="filterOption button" data-filter="drc" onclick="filterGenre(event)">
+                   DR Congo 
+                </button>
+
+                <button class="filterOption button" data-filter="ethiopia" onclick="filterGenre(event)">
+                   Ethiopia
                 </button>
                 
                 <button class="filterOption button" data-filter="ghana" onclick="filterGenre(event)">
                     Ghana 
+                </button>
+
+                <button class="filterOption button" data-filter="liberia" onclick="filterGenre(event)">
+                   Liberia 
+                </button>
+
+                <button class="filterOption button" data-filter="mali" onclick="filterGenre(event)">
+                   Mali 
+                </button>
+
+                <button class="filterOption button" data-filter="namibia" onclick="filterGenre(event)">
+                  Namibia 
                 </button>
                 
                 <button class="filterOption button" data-filter="nigeria" onclick="filterGenre(event)">
@@ -51,6 +75,10 @@
                 
                 <button class="filterOption button" data-filter="senegal" onclick="filterGenre(event)">
                     Senegal
+                </button>
+
+                <button class="filterOption button" data-filter="sierra-leone" onclick="filterGenre(event)">
+                    Sierra Leone
                 </button>
                 
                 <button class="filterOption button" data-filter="south-africa" onclick="filterGenre(event)">
@@ -146,6 +174,11 @@
                         <h3>Divine Chocolate Packaging</h3>
                     </div>
 
+                    <div class="filterDiv southafrica 1990s ndebele bantu" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/BMW Ndebele Car.png" alt="Fela Shakara Album Cover">
+                        <h3>BMW Ndebele Car</h3>
+                    </div>
+
                 <!--1980s-->
                     <div class="filterDiv zimbabwe 1980s Saki Mafundikwa corruption album cover" onclick="" data-day=""> 
                         <img id="designCover" src="./assets/DJ_MafundikwaS_Corruption.png" alt="Fela Shakara Album Cover">
@@ -156,6 +189,11 @@
                     <div class="filterDiv nigeria 1970s festac77" onclick="" data-day=""> 
                         <img id="designCover" src="./assets/Festac77-y.png" alt="Fela Shakara Album Cover">
                         <h3>Festac '77</h3>
+                    </div>
+
+                    <div class="filterDiv southafrica 1970s steve biko apartheid" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Biko and Solidarity.png" alt="Fela Shakara Album Cover">
+                        <h3>Biko and Solidarity</h3>
                     </div>
             
                     <div class="filterDiv nigeria 1970s fela fearnotman albumcover" onclick="" data-day=""> 
@@ -206,16 +244,81 @@
                         <h3>French-Algerian WW2 Poster</h3> 
                     </div>
 
+                    <div class="filterDiv southafrica 1940s ndebele bantu" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Ndebele Paintings.png" alt="Drum Magazine Cover">
+                        <h3>Ndebele Paintings</h3> 
+                    </div>
+
                 <!--1930s-->
                     <div class="filterDiv algeria 1930s poster leon cauvy" onclick="" data-day=""> 
                         <img id="designCover" src="./assets/Algerie-1930-y.png" alt="Drum Magazine Cover">
                         <h3>Algeria Tourism Poster</h3> 
                     </div>
 
+                    <div class="filterDiv southafrica 1930s poster edward-roux resistance" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Umsebenzi.png" alt="Drum Magazine Cover">
+                        <h3>Umsebenzi (The Worker)</h3> 
+                    </div>
+
+                    <div class="filterDiv namibia 1930s poster postage stamp" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/South African Stamp.png" alt="Drum Magazine Cover">
+                        <h3>South West Africa Stamp</h3> 
+                    </div>
+
                 <!--1900s-->
-                    <div class="filterDiv angola 1900s jokwe chokwe" onclick="" data-day=""> 
+                    <div class="filterDiv angola 1900s jokwe chokwe writing-systems" onclick="" data-day=""> 
                         <img id="designCover" src="./assets/Angolan-Jokwe-Symbol-y.png" alt="Drum Magazine Cover">
                         <h3>Chokwe Script</h3> 
+                    </div>
+
+                    <div class="filterDiv drc 1900s kuba" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Kuba Cloth.png" alt="Drum Magazine Cover">
+                        <h3>Ntshakishwepi (Kuba cloth)</h3> 
+                    </div>
+
+                    <div class="filterDiv zimbabwe southafrica 1900s rock-art" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Zimbabwe Rock Art.png" alt="Drum Magazine Cover">
+                        <h3>Ancient Rock Art</h3> 
+                    </div>
+
+                    <div class="filterDiv southafrica 1900s rock-art san" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Linton Panel.png" alt="Drum Magazine Cover">
+                        <h3>Linton Panel</h3> 
+                    </div>
+
+                    <div class="filterDiv nigeria 1900s aroko yoruba writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Aroko System.png" alt="Drum Magazine Cover">
+                        <h3>Aroko</h3> 
+                    </div>
+
+                    <div class="filterDiv ghana cote-d'ivoire 1900s adinkra akan writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Adinkra Writing.png" alt="Drum Magazine Cover">
+                        <h3>Adinkra Symbols</h3> 
+                    </div>
+
+                    <div class="filterDiv nigeria cameroon 1900s nsibidi ekoi igbo writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Nsibidi.png" alt="Drum Magazine Cover">
+                        <h3>Nsibidi</h3> 
+                    </div>
+
+                    <div class="filterDiv southafrica 1900s bantu" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Bantu System.png" alt="Drum Magazine Cover">
+                        <h3>Bantu Symbols</h3> 
+                    </div>
+
+                    <div class="filterDiv ethiopia 1900s ethiopic writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Ethipic Writing.png" alt="Drum Magazine Cover">
+                        <h3>Ethiopic Writing System</h3> 
+                    </div>
+
+                    <div class="filterDiv liberia sierraleone mali 1900s mande writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/Mande Syllabaries.png" alt="Drum Magazine Cover">
+                        <h3>Mande Syllabaries</h3> 
+                    </div>
+
+                    <div class="filterDiv cameroon 1900s king-njoya writing-systems" onclick="" data-day=""> 
+                        <img id="designCover" src="./assets/King Njoya Syllabaries.png" alt="Drum Magazine Cover">
+                        <h3>King Njoya Syllabry</h3> 
                     </div>
             </div>
          </div>
@@ -225,149 +328,279 @@
 
 <!-- POP-UP INFO BOX -->
 
-    <div class="IvoryCoastMuseum-Info hide">
-        <h4>Civilisations Museum of Ivory Coast Branding - O'Plerou Grebet</h4>
-        <h5>Côte d'Ivoire | 2020</h5>
-        <p>In 2020. Ivorian Graphic Designer, O'Plerou Grebet created the branding for the Civilisations Museum of Ivory Coast, along with corresponding posters. He embraces Ivory Coastal aesthetics, which is "more about emotional principles and openness."</p>
-        <img id="infoImage" src="./assets/O Plerou Grebet.jpg" alt="musée des civilisations de côte d'ivoire branding">
-        <button class="closeBtn"></button>
-    </div>
+    <!--2020s-->
+        <div class="IvoryCoastMuseum-Info hide">
+            <h4>Civilisations Museum of Ivory Coast Branding - O'Plerou Grebet</h4>
+            <h5>Côte d'Ivoire | 2020</h5>
+            <p>In 2020. Ivorian Graphic Designer, O'Plerou Grebet created the branding for the Civilisations Museum of Ivory Coast, along with corresponding posters. He embraces Ivory Coastal aesthetics, which is "more about emotional principles and openness."</p>
+            <img id="infoImage" src="./assets/O Plerou Grebet.jpg" alt="musée des civilisations de côte d'ivoire branding">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="AfléBijoux-Info hide">
-        <h4>Aflé Bijoux - O'Plerou Grebet</h4>
-        <h5>Côte d'Ivoire | 2020</h5>
-        <p>A series of Adinkra symbols designed by O'Plerou Grebet for jewelry brand, Aflé Bijoux.</p>
-        <img id="infoImage" src="./assets/1-adinkrahene-dua.png" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="AfléBijoux-Info hide">
+            <h4>Aflé Bijoux - O'Plerou Grebet</h4>
+            <h5>Côte d'Ivoire | 2020</h5>
+            <p>A series of Adinkra symbols designed by O'Plerou Grebet for jewelry brand, Aflé Bijoux.</p>
+            <img id="infoImage" src="./assets/1-adinkrahene-dua.png" alt="Aflé Bijoux Adinkra Symbols">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="TED-Stage-Info hide">
-        <h4>TEDGlobal Stage Design</h4>
-        <h5>Zimbabwe | 2017</h5>
-        <p>Saki Mafundikwa, a graphic designer, filmmaker, design teacher and founder of the Zimbabwe Institute of Vigital Arts was commissioned to create an aesthetic for the theatre stage that was as elegant as it was culturally and thematically relevant.</p>
-        <img id="infoImage" src="./assets/TED-Global-Stage-Design-2017.png" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--2010s-->
+        <div class="TED-Stage-Info hide">
+            <h4>TEDGlobal Stage Design</h4>
+            <h5>Zimbabwe | 2017</h5>
+            <p>Saki Mafundikwa, a graphic designer, filmmaker, design teacher and founder of the Zimbabwe Institute of Vigital Arts was commissioned to create an aesthetic for the theatre stage that was as elegant as it was culturally and thematically relevant.</p>
+            <img id="infoImage" src="./assets/TED-Global-Stage-Design-2017.png" alt="TEDGlobal Stage Design">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="TED-Stage2-Info hide">
-        <h4>TEDGlobal Stage Design</h4>
-        <h5>Zimbabwe | 2017</h5>
-        <p>Saki Mafundikwa, a graphic designer, filmmaker, design teacher and founder of the Zimbabwe Institute of Vigital Arts was commissioned to create an aesthetic for the theatre stage that was as elegant as it was culturally and thematically relevant.</p>
-        <img id="infoImage" src="./assets/TEDGlobal-Stage-Design-2017.png" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="TED-Stage2-Info hide">
+            <h4>TEDGlobal Stage Design</h4>
+            <h5>Zimbabwe | 2017</h5>
+            <p>Saki Mafundikwa, a graphic designer, filmmaker, design teacher and founder of the Zimbabwe Institute of Vigital Arts was commissioned to create an aesthetic for the theatre stage that was as elegant as it was culturally and thematically relevant.</p>
+            <img id="infoImage" src="./assets/TEDGlobal-Stage-Design-2017.png" alt="TEDGlobal Design Patterns">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Divine-Chocolate-Info hide">
-        <h4>Divine Chocolate Packaging</h4>
-        <h5>Ghana | 1998</h5>
-        <p>Gourmet chocolate brand Divine Chocolate chose to encase its luxury confectionery with elegant packaging covered in Adinkra symbols, each selected to communicate the social mission driving the brand.</p>
-        <img id="infoImage" src="./assets/divine-dark-chocolate-adinkra.png" alt="Divine Chocolate Packaging">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1990s-->
+        <div class="Divine-Chocolate-Info hide">
+            <h4>Divine Chocolate Packaging</h4>
+            <h5>Ghana | 1998</h5>
+            <p>Gourmet chocolate brand Divine Chocolate chose to encase its luxury confectionery with elegant packaging covered in Adinkra symbols, each selected to communicate the social mission driving the brand.</p>
+            <img id="infoImage" src="./assets/divine-dark-chocolate-adinkra.png" alt="Divine Chocolate Packaging">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Corruption-Info hide">
-        <h4>Corruption (Album Cover)</h4>
-        <h5>Zimbabwe | 1989</h5>
-        <p> <span style="font-style: italic;">Corruption</span> is an album by the Zimbabwean musician Thomas Mapfumo, released in 1989. The covers was designed by Zimbabwean designer Saki Mafundikwa.</p>
-        <img id="infoImage" src="./assets/DJ_MafundikwaS_Corruption.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="BMW-Ndebele-Car-Info hide">
+            <h4>BMW Ndebele Car</h4>
+            <h5>South Africa | 1991</h5>
+            <p>In 1991, Esther Mahlangu, a renowned Ndebele house painter, was commissioned by BMW to apply the iconic patterns on one of their cars. This shows the evolution of indigenous African design elements in contemporary applications</p>
+            <img id="infoImage" src="./assets/BMW Ndebele Car.png" alt="BMW Ndebele Car">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="festac77-Info hide">
-        <h4>Festac '77</h4>
-        <h5>Nigeria | 1977</h5>
-        <p>Festac '77 - The Second World Black and African Festival of Arts and Culture - was a major international festival held in Lagos, Nigeria, from 15 January 1977 to 12 February 1977. The poster has become a central symbol of modern NIgerian design.</p>
-        <img id="infoImage" src="./assets/festac '77.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1980s-->
+        <div class="Corruption-Info hide">
+            <h4>Corruption (Album Cover)</h4>
+            <h5>Zimbabwe | 1989</h5>
+            <p> <span style="font-style: italic;">Corruption</span> is an album by the Zimbabwean musician Thomas Mapfumo, released in 1989. The covers was designed by Zimbabwean designer Saki Mafundikwa.</p>
+            <img id="infoImage" src="./assets/DJ_MafundikwaS_Corruption.jpg" alt="Corruption (Album Cover)">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Fear-Not-Man-Info hide">
-        <h4>Fear Not Man (Sleeve Cover)</h4>
-        <h5>Nigeria | 1977</h5>
-        <p>Lemi Ghariokwu is the visionary behind dozens of Fela Kuti's album covers. He has been responsible for Fela's covers made of politically and socially motivated illustrations, collages and oil paintings. In the <span style="font-style: italic;">Fear Not Man</span> sleeve, he used hand-drawn type and letters made from cut-out faces of Nigerians, pasted over photography.</p>
-        <img id="infoImage" src="./assets/Fear-Not-Man-Info.jpeg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1970s-->
+        <div class="festac77-Info hide">
+            <h4>Festac '77</h4>
+            <h5>Nigeria | 1977</h5>
+            <p>Festac '77 - The Second World Black and African Festival of Arts and Culture - was a major international festival held in Lagos, Nigeria, from 15 January 1977 to 12 February 1977. The poster has become a central symbol of modern NIgerian design.</p>
+            <img id="infoImage" src="./assets/festac '77.jpg" alt="Festac '77 Poster">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Shakara-Info hide">
-        <h4>Shakara (Album Cover)</h4>
-        <h5>Nigeria | 1972</h5>
-        <p>Lemi Ghariokwu is the visionary behind dozens of Fela Kuti's album covers. He has been responsible for Fela's covers made of politically and socially motivated illustrations, collages and oil paintings.</p>
-        <img id="infoImage" src="./assets/Shakara.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Fear-Not-Man-Info hide">
+            <h4>Fear Not Man (Sleeve Cover)</h4>
+            <h5>Nigeria | 1977</h5>
+            <p>Lemi Ghariokwu is the visionary behind dozens of Fela Kuti's album covers. He has been responsible for Fela's covers made of politically and socially motivated illustrations, collages and oil paintings. In the <span style="font-style: italic;">Fear Not Man</span> sleeve, he used hand-drawn type and letters made from cut-out faces of Nigerians, pasted over photography.</p>
+            <img id="infoImage" src="./assets/Fear-Not-Man-Info.jpeg" alt="Fear Not Man (Album Cover)">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Mustapha-Adane-Info hide">
-        <h4>Mustapha Adane</h4>
-        <h5>Algeria | 1960s</h5>
-        <p>Mustapha Adane is an Algerian visual and graphic artist known for his mastery of enamel on copper, his involvement in design, sculpture, restoration, and interior architecture, as well as his role in the Aouchem movement.</p>
-        <img id="infoImage" src="./assets/Adane_Mustapha-.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Fear-Not-Man-Info hide">
+            <h4>Biko and Solidarity</h4>
+            <h5>South Africa | 1977</h5>
+            <p>This poster created by Ben Dikobe Martins is a tribute to revolutionary leader Steve Biko. It shows Biko in clenched fists breaking a chain - more symbolism of South African resistance</p>
+            <img id="infoImage" src="./assets/Biko and Solidarity.png" alt="Biko and Solidarity Linocut">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="First-World-Festival-of-Negro-Arts-Info hide">
-        <h4>First World Festival of Negro Arts</h4>
-        <h5>Senegal | 1966</h5>
-        <p>The first World Festival of Negro Arts was held in 1966. Also known as FESMAN, it was a month-long culture and arts festival in Dakar, Senegal showcasing arts, performance, and design from artists and performers across the African Diaspora. The poster features elements of traditional Senegalese aesthetic design.</p>
-        <img id="infoImage" src="./assets/Dakar_festivalposter_1966.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Shakara-Info hide">
+            <h4>Shakara (Album Cover)</h4>
+            <h5>Nigeria | 1972</h5>
+            <p>Lemi Ghariokwu is the visionary behind dozens of Fela Kuti's album covers. He has been responsible for Fela's covers made of politically and socially motivated illustrations, collages and oil paintings.</p>
+            <img id="infoImage" src="./assets/Shakara.jpg" alt="Shakara (Album Cover)">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Algerian-Independence-Poster-Info hide">
-        <h4>Algerian Independence Poster</h4>
-        <h5>Algeria | 1961</h5>
-        <p>"The Independence and Integrity of Algeria against the Fascism of the OAS." Pro Algerian Independence poster 1961.</p>
-        <img id="infoImage" src="./assets/Algerian Independence Poster- 1961.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1960s-->
+        <div class="Mustapha-Adane-Info hide">
+            <h4>Mustapha Adane</h4>
+            <h5>Algeria | 1960s</h5>
+            <p>Mustapha Adane is an Algerian visual and graphic artist known for his mastery of enamel on copper, his involvement in design, sculpture, restoration, and interior architecture, as well as his role in the Aouchem movement.</p>
+            <img id="infoImage" src="./assets/Adane_Mustapha-.jpg" alt="Mustapha Adane">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Drum-Magazine-Info hide">
-        <h4>Drum Magazine</h4>
-        <h5>South Africa | 1956</h5>
-        <p>Drum magazine was a leading, vibrant voice for Black South African culture and resistance, known for covering urban life, jazz, and politics during the "fabulous decade". Key 1956 content included iconic photo essays, coverage of the August 1956 Women’s March against pass laws, and profiles on figures like boxer "Kangaroo" Maoto.</p>
-        <img id="infoImage" src="./assets/drum-magazine-slide-WWFB-jumbo.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="First-World-Festival-of-Negro-Arts-Info hide">
+            <h4>First World Festival of Negro Arts</h4>
+            <h5>Senegal | 1966</h5>
+            <p>The first World Festival of Negro Arts was held in 1966. Also known as FESMAN, it was a month-long culture and arts festival in Dakar, Senegal showcasing arts, performance, and design from artists and performers across the African Diaspora. The poster features elements of traditional Senegalese aesthetic design.</p>
+            <img id="infoImage" src="./assets/Dakar_festivalposter_1966.jpg" alt="First World Festival of Negro Arts">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Kofi-Antubam-Info hide">
-        <h4>Presidential Chair - Kofi Antubam</h4>
-        <h5>Ghana | 1957</h5>
-        <p>In the 1950s, Antubam developed various works of arts and craft including Nkrumah's presidential mace and chair, various state commissioned relief mural carvings. He spearheaded the use of Adinkra Symbols in Ghanaian designs</p>
-        <img id="infoImage" src="./assets/Kofi-Antubam.jfif" alt="Kofi Antubam Presidential Chair">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Algerian-Independence-Poster-Info hide">
+            <h4>Algerian Independence Poster</h4>
+            <h5>Algeria | 1961</h5>
+            <p>"The Independence and Integrity of Algeria against the Fascism of the OAS." Pro Algerian Independence poster 1961.</p>
+            <img id="infoImage" src="./assets/Algerian Independence Poster- 1961.jpg" alt="Algerian Independence Poster">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Algerian-War-Poster-Info hide">
-        <h4>Algerian War Pro-Colonial Poster</h4>
-        <h5>Algeria | 1954</h5>
-        <p>"Brothers... OAS" Pro-colonial propaganda posters from the Algerian War (1954-61)</p>
-        <img id="infoImage" src="./assets/FRERES... OAS - Algerie 1954.png" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1950s-->
+        <div class="Drum-Magazine-Info hide">
+            <h4>Drum Magazine</h4>
+            <h5>South Africa | 1956</h5>
+            <p>Drum magazine was a leading, vibrant voice for Black South African culture and resistance, known for covering urban life, jazz, and politics during the "fabulous decade". Key 1956 content included iconic photo essays, coverage of the August 1956 Women’s March against pass laws, and profiles on figures like boxer "Kangaroo" Maoto.</p>
+            <img id="infoImage" src="./assets/drum-magazine-slide-WWFB-jumbo.jpg" alt="Drum Magazine Cover">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="WW2-Poster-Info hide">
-        <h4>French-Algerian WW2 Poster</h4>
-        <h5>Algeria | 1943</h5>
-        <p>"Oh Allah, against the swastika, enemy of all religions". French Algerian WW2 poster. Use of Arabic script and Islamic style decorations.</p>
-        <img id="infoImage" src="./assets/French Algerian WW2 Poster 1943.jpeg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Kofi-Antubam-Info hide">
+            <h4>Presidential Chair - Kofi Antubam</h4>
+            <h5>Ghana | 1957</h5>
+            <p>In the 1950s, Antubam developed various works of arts and craft including Nkrumah's presidential mace and chair, various state commissioned relief mural carvings. He spearheaded the use of Adinkra Symbols in Ghanaian designs</p>
+            <img id="infoImage" src="./assets/Kofi-Antubam.jfif" alt="Kofi Antubam Presidential Chair">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Leon-Cauvy-Info hide">
-        <h4>Algeria Tourism Poster</h4>
-        <h5>Algeria | 1930</h5>
-        <p>Leon Cauvy (1874-1933) was a French orientalist painter. Throughout the early 20th century, he created Algerian tourism and colonialism posters. They are very similar to the European Art Nouveau posters of its time.</p>
-        <img id="infoImage" src="./assets/Algerie-1930.jpg" alt="">
-        <button class="closeBtn"></button>
-    </div>
+        <div class="Algerian-War-Poster-Info hide">
+            <h4>Algerian War Pro-Colonial Poster</h4>
+            <h5>Algeria | 1954</h5>
+            <p>"Brothers... OAS" Pro-colonial propaganda posters from the Algerian War (1954-61)</p>
+            <img id="infoImage" src="./assets/FRERES... OAS - Algerie 1954.png" alt="Algerian War Pro-Colonial Poster">
+            <button class="closeBtn"></button>
+        </div>
 
-    <div class="Chokwe-Script-Info hide">
-        <h4>Chokwe Script</h4>
-        <h5>Angola | <span style="font-style: italic;">(Undated)</span></h5>
-        <p>Characters from Angola's Chokwe language. It is one of many traditional African scripts that have faded from use, but recently experiencing attempts at revival.</p>
-        <img id="infoImage" src="./assets/Angolan-Jokwe-Symbol.png" alt="">
-        <button class="closeBtn"></button>
-    </div>
+    <!--1940s-->
+        <div class="WW2-Poster-Info hide">
+            <h4>French-Algerian WW2 Poster</h4>
+            <h5>Algeria | 1943</h5>
+            <p>"Oh Allah, against the swastika, enemy of all religions". French Algerian WW2 poster. Use of Arabic script and Islamic style decorations.</p>
+            <img id="infoImage" src="./assets/French Algerian WW2 Poster 1943.jpeg" alt="French-Algerian WW2 Poster">
+            <button class="closeBtn"></button>
+        </div>
+
+        <div class="WW2-Poster-Info hide">
+            <h4>Ndebele Paintings</h4>
+            <h5>Algeria | 1930-1940s</h5>
+            <p>"Oh Allah, against the swastika, enemy of all religions". French Algerian WW2 poster. Use of Arabic script and Islamic style decorations.</p>
+            <img id="infoImage" src="./assets/French Algerian WW2 Poster 1943.jpeg" alt="French-Algerian WW2 Poster">
+            <button class="closeBtn"></button>
+        </div>
+
+    <!--1930s-->
+        <div class="Umsebenzi-Info hide">
+            <h4>Umsebenzi (The Worker)</h4>
+            <h5>South Africa | 1933</h5>
+            <p>Edward Roux linocut cartoon, Umsebenzi (The Worker) created in 1933 is an early example of South African resistance graphics throughout the 20th century</p>
+            <img id="infoImage" src="./assets/Umsebenzi.png" alt="Umsebenzi (The Worker)">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Leon-Cauvy-Info hide">
+            <h4>South Western African Stamp</h4>
+            <h5>Namibia | 1931</h5>
+            <p>Stamp issued by South West Africa (Namibia) in 1931 featuring images of ancient rock art. It followed the style of other European colony stamps</p>
+            <img id="infoImage" src="./assets/South African Stamp.png" alt="South Western African Stamp">
+            <button class="closeBtn"></button>
+        </div>
+
+        <div class="Leon-Cauvy-Info hide">
+            <h4>Algeria Tourism Poster</h4>
+            <h5>Algeria | 1930</h5>
+            <p>Leon Cauvy (1874-1933) was a French orientalist painter. Throughout the early 20th century, he created Algerian tourism and colonialism posters. They are very similar to the European Art Nouveau posters of its time.</p>
+            <img id="infoImage" src="./assets/Algerie-1930.jpg" alt="Algeria Tourism Poster">
+            <button class="closeBtn"></button>
+        </div>
+
+    <!--1900s-->
+        <div class="Chokwe-Script-Info hide">
+            <h4>Chokwe Script</h4>
+            <h5>Angola | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Characters from Angola's Chokwe language. It is one of many traditional African scripts that have faded from use, but recently experiencing attempts at revival.</p>
+            <img id="infoImage" src="./assets/Angolan-Jokwe-Symbol.png" alt="Chokwe Script">
+            <button class="closeBtn"></button>
+        </div>
+
+        <div class="Kuba-Cloth-Info hide">
+            <h4>Ntshakishwepi (Kuba cloth)</h4>
+            <h5>DR Congo | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Raffia weavings sewn into a large wraparound cloth with black embroidered patterns. Ntshakishwepi are used for daily wear or as ceremonial dance skirts.</p>
+            <img id="infoImage" src="./assets/Kuba Cloth.png" alt="Kuba Cloth">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Ancient-Rock-Art-Info hide">
+            <h4>Ancient Rock Art</h4>
+            <h5>Zimbabwe, South Africa | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Rock art found on the walls of the Rusape Caves in Zimbabwe</p>
+            <img id="infoImage" src="./assets/Zimbabwe Rock Art.png" alt="Zimbabwe Rock Art">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Linton-Panel-Info hide">
+            <h4>Linton Panel</h4>
+            <h5>South Africa | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>The Linton Panel is a celebrated piece of San rock art from South Africa. It depicts paintings of various human and animal figures like Elands, Antelopes etc.</p>
+            <img id="infoImage" src="./assets/Linton Panel.png" alt="Linton Panel">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Aroko-Info hide">
+            <h4>Aroko</h4>
+            <h5>Nigeria | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>The Aroko of the Yoruba people is a symbolic communication system that uses objects like string, cowries, feathers to convey messages.</p>
+            <img id="infoImage" src="./assets/Aroko System.png" alt="Aroko System">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Adinkra-Symbols-Info hide">
+            <h4>Adinkra Symbols</h4>
+            <h5>Ghana, Cote d'Ivoire | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>The Adinkra symbols of the Akan people of Ghana and Cote d’Ivoire are the most widely recognized form of proto-writing in Africa. They usually represent proverbs, historical events, attitudes as well as objects, animals, and plants</p>
+            <img id="infoImage" src="./assets/Adinkra Writing.png" alt="Adinkra Symbols">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Nsibidi-Info hide">
+            <h4>Nsibidi</h4>
+            <h5>Nigeria, Cameroon | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Nsibidi is an ancient writing script created by the Ekoi people of southern Nigeria and parts of northwestern Cameroon. It was developed before the 18th century for use by the Ekpe secret society.</p>
+            <img id="infoImage" src="./assets/Nsibidi.png" alt="Nsibidi Writing System">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Bantu-Symbols-Info hide">
+            <h4>Bantu Symbols</h4>
+            <h5>South Africa | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Bantu writing system of South Africa is a symbol language. Each symbol expresses a whole or idea. The characters are arranged in sequence to communicate a fact: “Man+sees+Lion”</p>
+            <img id="infoImage" src="./assets/Bantu System.png" alt="Bantu Symbols">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Ethiopic-Writing-System-Info hide">
+            <h4>Ethiopic Writing System</h4>
+            <h5>Ethiopia | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>Classic Ethiopic writing has a total of 182 syllographs. Each symbol represents a syllable consisting of a consonant and a vowel. The basic signs are modified in different ways to indicate the different vowels</p>
+            <img id="infoImage" src="./assets/Ethipic Writing.png" alt="Ethiopic Writing System">
+            <button class="closeBtn"></button>
+        </div>
+        
+        <div class="Mande-Syllabaries-Info hide">
+            <h4>Mande Syllabaries</h4>
+            <h5>Liberia, Sierra Leone, Mali | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>The Mande syllabaries are a group of indigenous scripts found in Liberia, Sierra Leone, and northern Mali. The Vai, the Loma, the Kpelle syllabaries of Liberia, the Mende of Sierra Leone and the Bambara from Mali</p>
+            <img id="infoImage" src="./assets/Mande Syllabaries.png" alt="Mande Syllabaries">
+            <button class="closeBtn"></button>
+        </div>
+
+        <div class="King-Njoya-Syllabry-Info hide">
+            <h4>King Njoya Syllabry</h4>
+            <h5>Cameroon | Pre-Colonial<span style="font-style: italic;">(Undated)</span></h5>
+            <p>King Ibrahim Njoya of the Bamum Kingdom in Cameroon developed a writing system in 1896.</p>
+            <img id="infoImage" src="./assets/King Njoya Syllabaries.png" alt="King Njoya Syllabary">
+            <button class="closeBtn"></button>
+        </div>
 
 
     <div class="world-map"> <!-- MAP-->
