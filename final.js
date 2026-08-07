@@ -379,7 +379,7 @@ document.addEventListener("click", function(event) {
                 'bantu': 'Bantu-Symbols-Info',
                 'ethiopic': 'Ethiopic-Writing-System-Info',
                 'mande': 'Mande-Syllabaries-Info',
-                'king-njoya': 'King-Njoya-Info',
+                'king-njoya': 'King-Njoya-Syllabry-Info',
             };
             
             // Find which info box to show based on filterDiv classes
