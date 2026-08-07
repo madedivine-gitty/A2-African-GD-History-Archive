@@ -244,9 +244,11 @@ body{
 
 
 /* design images  */
+    
     #designCover{
         width: 100%;
-        background-color: #EDE8DE;
+        background-color: #F8C45C;
+        mix-blend-mode: screen;
     }
 
     #designCover:hover{
