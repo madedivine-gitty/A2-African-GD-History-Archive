@@ -353,6 +353,9 @@ document.addEventListener("click", function(event) {
                 'TED-Stage1': 'TED-Stage-Info',
                 'TED-Stage2': 'TED-Stage2-Info',
                 'divinechocolate': 'Divine-Chocolate-Info',
+                'BMW-ndebele': 'BMW-Ndebele-Car-Info',
+                'biko': 'Biko-and-Solidarity-Info',
+                'ndebele': 'Ndebele-Paintings-Info',
                 'corruption': 'Corruption-Info',
                 'fearnotman': 'Fear-Not-Man-Info',
                 'festac77': 'festac77-Info',
@@ -366,7 +369,17 @@ document.addEventListener("click", function(event) {
                 'propaganda': 'Algerian-War-Poster-Info',
                 'worldwar2': 'WW2-Poster-Info',
                 'leon': 'Leon-Cauvy-Info',
-                'chokwe': 'Chokwe-Script-Info'
+                'chokwe': 'Chokwe-Script-Info',
+                'kuba': 'Kuba-Cloth-Info',
+                'rock-art': 'Ancient-Rock-Art-Info',
+                'linton-panel': 'Linton-Panel-Info',
+                'aroko': 'Aroko-Info',
+                'adinkra': 'Adinkra-Symbols-Info',
+                'nsibidi': 'Nsibidi-Info',
+                'bantu': 'Bantu-Symbols-Info',
+                'ethiopic': 'Ethiopic-Writing-System-Info',
+                'mande': 'Mande-Syllabaries-Info',
+                'king-njoya': 'King-Njoya-Info',
             };
             
             // Find which info box to show based on filterDiv classes
