@@ -247,8 +247,7 @@ body{
     
     #designCover{
         width: 100%;
-        background-color: #F8C45C;
-        mix-blend-mode: screen;
+        background-color: #EDE8DE;
     }
 
     #designCover:hover{
