@@ -349,7 +349,7 @@ document.addEventListener("click", function(event) {
             // Map of filterDiv class to info box class
             var infoBoxMap = {
                 'IvoryCoastMuseum': 'IvoryCoastMuseum-Info',
-                'aflébijoux': 'AfléBijoux-Info',
+                'aflebijoux': 'AfleBijoux-Info',
                 'TED-Stage1': 'TED-Stage-Info',
                 'TED-Stage2': 'TED-Stage2-Info',
                 'divinechocolate': 'Divine-Chocolate-Info',
