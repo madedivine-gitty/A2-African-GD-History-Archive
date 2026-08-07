@@ -369,6 +369,8 @@ document.addEventListener("click", function(event) {
                 'propaganda': 'Algerian-War-Poster-Info',
                 'worldwar2': 'WW2-Poster-Info',
                 'leon': 'Leon-Cauvy-Info',
+                'umsebenzi': 'Umsebenzi-Info',
+                'postage-stamp': 'Postage-Stamp-Info',
                 'chokwe': 'Chokwe-Script-Info',
                 'kuba': 'Kuba-Cloth-Info',
                 'rock-art': 'Ancient-Rock-Art-Info',
